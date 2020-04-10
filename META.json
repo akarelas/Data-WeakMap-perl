@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "WeakMap that doesn't leak memory, and which you can operate on like a hash",
    "author" : [
       "Alexander Karelas <karjala@cpan.org>"
    ],
@@ -42,7 +42,7 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008001"
+            "perl" : "5.014"
          }
       },
       "test" : {
@@ -52,7 +52,18 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/akarelas/Data-WeakMap-perl/issues"
+      },
+      "homepage" : "https://github.com/akarelas/Data-WeakMap-perl",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/akarelas/Data-WeakMap-perl.git",
+         "web" : "https://github.com/akarelas/Data-WeakMap-perl"
+      }
+   },
+   "version" : "v0.0.1",
    "x_authority" : "cpan:KARJALA",
    "x_serialization_backend" : "JSON::PP version 4.02",
    "x_static_install" : 1

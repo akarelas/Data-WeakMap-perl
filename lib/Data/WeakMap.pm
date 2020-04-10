@@ -5,7 +5,7 @@ use warnings;
 
 use Data::WeakMap::Tie;
 
-our $VERSION = "0.01";
+our $VERSION = "v0.0.1";
 
 sub new {
     my $self = {};
@@ -24,7 +24,7 @@ __END__
 
 =head1 NAME
 
-Data::WeakMap - WeakMaps that don't leak memory and which you can call keys, values and @array = %weak_map on
+Data::WeakMap - WeakMap that doesn't leak memory, and which you can operate on like a hash
 
 =head1 SYNOPSIS
 
@@ -63,7 +63,7 @@ Data::WeakMap - WeakMaps that don't leak memory and which you can call keys, val
         $map{$regex2} = 10;
         scalar(keys %map); # 2
     }
-    scalar(keys %map); # is now back down to 1 (WeakMap only holds weak references of its keys)
+    scalar(keys %map); # is now back to 1 (because WeakMap's keys, which are references, are only weak references)
 
 
 =head1 DESCRIPTION
@@ -74,7 +74,7 @@ Data::WeakMap is a Perl implementation for WeakMaps that does not leak memory
 
 =head1 CAVEATS
 
-Don't do this: each(%map). At least not for now (work in progress). Everything else is good.
+Don't do this: each(%map). At least not for now (work in progress). Everything else seems to work fine.
 
 =head1 LICENSE
 
