@@ -5,7 +5,7 @@ use warnings;
 
 use Data::WeakMap::Tie;
 
-our $VERSION = "v0.0.1";
+our $VERSION = "v0.0.2";
 
 sub new {
     my $self = {};

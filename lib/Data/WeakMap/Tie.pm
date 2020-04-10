@@ -1,7 +1,5 @@
 package Data::WeakMap::Tie;
 
-use experimental 'declared_refs';
-
 use strict;
 use warnings;
 
