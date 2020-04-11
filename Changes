@@ -2,6 +2,8 @@ Revision history for Perl extension Data-WeakMap
 
 {{$NEXT}}
 
+    - Total rewrite into small tidy code, easy to reason about
+
 v0.0.2 2020-04-10T19:06:04Z
 
     - Now works for Perl versions less than 5.26

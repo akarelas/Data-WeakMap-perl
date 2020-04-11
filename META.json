@@ -42,11 +42,14 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
+            "Scalar::Util" : "0",
             "perl" : "5.014"
          }
       },
       "test" : {
          "requires" : {
+            "Test::Deep" : "0",
             "Test::More" : "0.98"
          }
       }
