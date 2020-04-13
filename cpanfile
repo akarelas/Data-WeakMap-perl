@@ -1,4 +1,4 @@
-requires 'perl', '5.014'; # need access to the ${^GLOBAL_PHASE} var
+requires 'perl', '5.016'; # need access to the ${^GLOBAL_PHASE} var, etc
 
 on 'test' => sub {
     requires 'Test::More', '0.98';

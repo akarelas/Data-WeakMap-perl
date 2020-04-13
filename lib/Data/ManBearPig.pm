@@ -1,5 +1,4 @@
 package Data::ManBearPig;
-use 5.014;
 use strict;
 use warnings FATAL => 'all';
 
