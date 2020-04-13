@@ -1,5 +1,5 @@
 {
-   "abstract" : "WeakMap that doesn't leak memory, and which you can operate on like a hash",
+   "abstract" : "WeakMap that behaves like a hash, and doesn't leak memory",
    "author" : [
       "Alexander Karelas <karjala@cpan.org>"
    ],
@@ -44,7 +44,7 @@
          "requires" : {
             "Carp" : "0",
             "Scalar::Util" : "0",
-            "perl" : "5.014"
+            "perl" : "5.016"
          }
       },
       "test" : {

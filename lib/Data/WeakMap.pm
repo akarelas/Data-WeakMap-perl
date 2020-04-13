@@ -16,7 +16,7 @@ __END__
 
 =head1 NAME
 
-Data::WeakMap - WeakMap that doesn't leak memory, and which you can operate on like a hash
+Data::WeakMap - WeakMap that behaves like a hash, and doesn't leak memory
 
 =head1 SYNOPSIS
 
