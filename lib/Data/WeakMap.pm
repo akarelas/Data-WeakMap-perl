@@ -7,8 +7,6 @@ use parent 'Data::ManBearPig';
 
 our $VERSION = "v0.0.3";
 
-sub new { shift->SUPER::new }
-
 1;
 __END__
 

@@ -7,3 +7,8 @@ on 'test' => sub {
 
 requires 'Scalar::Util';
 requires 'Carp';
+
+requires 'Sentinel';
+
+# TODO: remove this before release
+requires 'Devel::Confess';

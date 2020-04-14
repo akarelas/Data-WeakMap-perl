@@ -11,8 +11,9 @@ sub new {
     my ($class) = @_;
 
     my $self = \{
-        tied_keys => {},
+        keys      => {},
         values    => {},
+        triggers  => {},
         dummy     => {},
     };
 
