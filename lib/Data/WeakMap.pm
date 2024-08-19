@@ -5,7 +5,7 @@ use warnings FATAL => 'all';
 
 use parent 'Data::ManBearPig';
 
-our $VERSION = "v0.0.3";
+our $VERSION = "v0.0.4";
 
 sub new { shift->SUPER::new }
 

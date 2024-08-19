@@ -4,7 +4,7 @@
       "Alexander Karelas <karjala@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.1.10, CPAN::Meta::Converter version 2.150010",
+   "generated_by" : "Minilla/v3.1.23, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "perl_5"
    ],
@@ -62,12 +62,12 @@
       "homepage" : "https://github.com/akarelas/Data-WeakMap-perl",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/akarelas/Data-WeakMap-perl.git",
+         "url" : "https://github.com/akarelas/Data-WeakMap-perl.git",
          "web" : "https://github.com/akarelas/Data-WeakMap-perl"
       }
    },
-   "version" : "v0.0.3",
+   "version" : "v0.0.4",
    "x_authority" : "cpan:KARJALA",
-   "x_serialization_backend" : "JSON::PP version 4.02",
+   "x_serialization_backend" : "JSON::PP version 4.16",
    "x_static_install" : 1
 }
