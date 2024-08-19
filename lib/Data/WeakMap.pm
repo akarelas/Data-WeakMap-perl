@@ -18,6 +18,10 @@ __END__
 
 Data::WeakMap - WeakMap that behaves like a hash, and doesn't leak memory
 
+=head1 NOTE
+
+This module is currently buggy and should not be used by anyone, as it produces wrong outputs.
+
 =head1 SYNOPSIS
 
     use Data::WeakMap;
@@ -67,6 +71,13 @@ Data::WeakMap is a Perl implementation of WeakMaps that doesn't leak memory
 =head1 CAVEATS
 
 Don't do this, ever: C<each(%map)>.
+
+Also see the L</NOTE> section on why it should not be used.
+
+=head1 SEE ALSO
+
+L<Hash::Util::FieldHash> - Core module, probably faster and without bugs, but you can't get a list of what's
+inside a fieldhash.
 
 =head1 LICENSE
 
